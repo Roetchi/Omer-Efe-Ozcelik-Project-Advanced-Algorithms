@@ -1,0 +1,247 @@
+{
+  "city": "Potsdam",
+  "country": "Germany",
+  "nodes": {
+    "potsdam_hbf": {
+      "label": "Potsdam Central Station",
+      "type": "start",
+      "lat": 52.39171,
+      "lon": 13.06674
+    },
+    "alter_markt": {
+      "label": "Alter Markt",
+      "type": "start",
+      "lat": 52.395011,
+      "lon": 13.060511,
+      "source": "Potsdam City Palace / Landtag coordinate listing"
+    },
+    "ernst_von_bergmann": {
+      "label": "Klinikum Ernst von Bergmann",
+      "type": "hospital",
+      "lat": 52.400556,
+      "lon": 13.064722,
+      "address": "Charlottenstraße 72, 14467 Potsdam",
+      "source": "Official hospital site and German-language encyclopaedia entry"
+    },
+    "dutch_quarter": {
+      "label": "Dutch Quarter",
+      "type": "start",
+      "lat": 52.4029225,
+      "lon": 13.0606765,
+      "source": "Tourism coordinate listing"
+    },
+    "nauener_tor": {
+      "label": "Nauener Tor",
+      "type": "landmark",
+      "lat": 52.4030738,
+      "lon": 13.0566195
+    },
+    "brandenburg_gate": {
+      "label": "Brandenburg Gate",
+      "type": "landmark",
+      "lat": 52.399561,
+      "lon": 13.048053,
+      "source": "Structure coordinate listing"
+    },
+    "st_josef": {
+      "label": "Alexianer St. Josefs-Krankenhaus",
+      "type": "hospital",
+      "lat": 52.399853,
+      "lon": 13.044842,
+      "address": "Allee nach Sanssouci 7, 14471 Potsdam",
+      "source": "Official hospital site"
+    },
+    "sanssouci_palace": {
+      "label": "Sanssouci Palace",
+      "type": "start",
+      "lat": 52.403519,
+      "lon": 13.03854
+    },
+    "schiffbauergasse": {
+      "label": "Schiffbauergasse",
+      "type": "landmark",
+      "lat": 52.4034,
+      "lon": 13.0727
+    },
+    "glienicke_bridge": {
+      "label": "Glienicke Bridge",
+      "type": "start",
+      "lat": 52.413491,
+      "lon": 13.090233
+    },
+    "babelsberg_park": {
+      "label": "Babelsberg Park",
+      "type": "start",
+      "lat": 52.407328,
+      "lon": 13.092811
+    },
+    "oberlinklinik": {
+      "label": "Oberlinklinik Potsdam",
+      "type": "hospital",
+      "lat": 52.3940407,
+      "lon": 13.0891183,
+      "address": "Rudolf-Breitscheid-Straße 24, 14482 Potsdam",
+      "source": "Official hospital site and map listing"
+    }
+  },
+  "edges": [
+    {
+      "source": "potsdam_hbf",
+      "target": "alter_markt",
+      "road_factor": 1.14,
+      "road_name": "Friedrich-Engels-Straße / Lange Brücke"
+    },
+    {
+      "source": "potsdam_hbf",
+      "target": "oberlinklinik",
+      "road_factor": 1.18,
+      "road_name": "Babelsberger Straße"
+    },
+    {
+      "source": "potsdam_hbf",
+      "target": "schiffbauergasse",
+      "road_factor": 1.23,
+      "road_name": "Friedrich-List-Straße riverside corridor"
+    },
+    {
+      "source": "alter_markt",
+      "target": "ernst_von_bergmann",
+      "road_factor": 1.1,
+      "road_name": "Charlottenstraße"
+    },
+    {
+      "source": "alter_markt",
+      "target": "dutch_quarter",
+      "road_factor": 1.12,
+      "road_name": "City-centre promenade"
+    },
+    {
+      "source": "alter_markt",
+      "target": "schiffbauergasse",
+      "road_factor": 1.18,
+      "road_name": "Yorckstraße / Berliner Straße"
+    },
+    {
+      "source": "alter_markt",
+      "target": "oberlinklinik",
+      "road_factor": 1.17,
+      "road_name": "Lange Brücke / Babelsberger corridor"
+    },
+    {
+      "source": "alter_markt",
+      "target": "brandenburg_gate",
+      "road_factor": 1.14,
+      "road_name": "Brandenburger Straße"
+    },
+    {
+      "source": "dutch_quarter",
+      "target": "nauener_tor",
+      "road_factor": 1.08,
+      "road_name": "Friedrich-Ebert-Straße"
+    },
+    {
+      "source": "dutch_quarter",
+      "target": "ernst_von_bergmann",
+      "road_factor": 1.09,
+      "road_name": "Hebbelstraße"
+    },
+    {
+      "source": "dutch_quarter",
+      "target": "schiffbauergasse",
+      "road_factor": 1.2,
+      "road_name": "Berliner Straße"
+    },
+    {
+      "source": "nauener_tor",
+      "target": "brandenburg_gate",
+      "road_factor": 1.11,
+      "road_name": "Charlottenstraße west axis"
+    },
+    {
+      "source": "nauener_tor",
+      "target": "ernst_von_bergmann",
+      "road_factor": 1.15,
+      "road_name": "Kurfürstenstraße"
+    },
+    {
+      "source": "brandenburg_gate",
+      "target": "st_josef",
+      "road_factor": 1.07,
+      "road_name": "Luisenplatz / Allee nach Sanssouci"
+    },
+    {
+      "source": "brandenburg_gate",
+      "target": "sanssouci_palace",
+      "road_factor": 1.18,
+      "road_name": "Maulbeerallee"
+    },
+    {
+      "source": "brandenburg_gate",
+      "target": "ernst_von_bergmann",
+      "road_factor": 1.22,
+      "road_name": "Charlottenstraße east axis"
+    },
+    {
+      "source": "st_josef",
+      "target": "ernst_von_bergmann",
+      "road_factor": 1.17,
+      "road_name": "City-centre connector"
+    },
+    {
+      "source": "schiffbauergasse",
+      "target": "glienicke_bridge",
+      "road_factor": 1.16,
+      "road_name": "Berliner Straße"
+    },
+    {
+      "source": "schiffbauergasse",
+      "target": "babelsberg_park",
+      "road_factor": 1.18,
+      "road_name": "Lakeside path"
+    },
+    {
+      "source": "schiffbauergasse",
+      "target": "ernst_von_bergmann",
+      "road_factor": 1.15,
+      "road_name": "Berliner Straße north corridor"
+    },
+    {
+      "source": "glienicke_bridge",
+      "target": "babelsberg_park",
+      "road_factor": 1.1,
+      "road_name": "Babelsberger Parkstraße"
+    },
+    {
+      "source": "babelsberg_park",
+      "target": "oberlinklinik",
+      "road_factor": 1.14,
+      "road_name": "Rudolf-Breitscheid-Straße"
+    }
+  ],
+  "scenarios": [
+    {
+      "start": "potsdam_hbf",
+      "description": "South-side intercity transport hub"
+    },
+    {
+      "start": "alter_markt",
+      "description": "Historic centre square"
+    },
+    {
+      "start": "dutch_quarter",
+      "description": "North-central heritage district"
+    },
+    {
+      "start": "sanssouci_palace",
+      "description": "Western palace-and-park landmark"
+    },
+    {
+      "start": "glienicke_bridge",
+      "description": "North-east bridge approach"
+    },
+    {
+      "start": "babelsberg_park",
+      "description": "Eastern park district"
+    }
+  ]
+}

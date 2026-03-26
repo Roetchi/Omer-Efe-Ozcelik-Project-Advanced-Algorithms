@@ -1,0 +1,3 @@
+algorithm,avg_runtime_ms,avg_peak_kib,avg_expanded_nodes
+A*,0.005279895597222223,0.65625,2.5
+Dijkstra,0.005394056819444444,0.83984375,3.3333333333333335
